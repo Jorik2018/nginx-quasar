@@ -31,7 +31,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t nginx-quasar:latest .
+      run: docker build -t jorik2020/nginx-quasar:dev .
 
     - name: Push Docker image
-      run: docker push nginx-quasar:latest
+      run: docker push jorik2020/nginx-quasar:dev
