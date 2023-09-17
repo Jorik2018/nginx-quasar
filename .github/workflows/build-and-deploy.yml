@@ -35,4 +35,3 @@ jobs:
 
     - name: Push Docker image
       run: docker push nginx-quasar:latest
-
