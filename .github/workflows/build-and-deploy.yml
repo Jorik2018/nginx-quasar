@@ -34,5 +34,5 @@ jobs:
       run: docker build -t nginx-quasar:latest .
 
     - name: Push Docker image
-      run: docker push jorik2020/nginx-quasar:tagname:latest
+      run: docker push jorik2020/nginx-quasar:latest
 
